@@ -29,11 +29,11 @@ This project includes a Nomad job file to run the Docker container.
 nomad job run nomad/hello.nomad
 ```
 
-# MLflow Dummy Experiment
+## MLflow Dummy Experiment
 
 This folder contains a simple example of logging a dummy experiment using **MLflow**.
 
-## Files
+### Files
 
 - `mlflow_dummy.py` – Python script that logs a dummy experiment with:
   - Parameters: `param1`, `param2`
@@ -42,9 +42,9 @@ This folder contains a simple example of logging a dummy experiment using **MLfl
   The script **automatically creates the artifact file and logs it** to MLflow.
 - `dummy_file.txt` – Example artifact created by the experiment.
 
-## How to Run
+### How to Run
 
-1. Run the dummy experiment
+ Run the dummy experiment
 
 ```bash
 python mlflow_dummy.py
