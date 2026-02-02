@@ -17,3 +17,14 @@ docker run --rm hello-devops
 
 #### CI Status Badge
 [![Python CI](https://github.com/sundhar-04/DevOps-intern-final-assesment/actions/workflows/ci.yml/badge.svg)](https://github.com/sundhar-04/DevOps-intern-final-assesment/actions/workflows/ci.yml)
+
+
+
+## Nomad Job Deployment
+
+This project includes a Nomad job file to run the Docker container.
+
+### Run the Nomad job
+```bash
+nomad job run nomad/hello.nomad
+```
