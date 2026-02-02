@@ -9,6 +9,11 @@ This project includes a simple Dockerfile to containerize the Python script `hel
 ### Build the Docker image
 ```bash
 docker build -t hello-devops .
-
+```
 ### Run
+```bash
 docker run --rm hello-devops
+```
+
+#### CI Status Badge
+[![Python CI](https://github.com/sundhar-04/DevOps-intern-final-assesment/actions/workflows/ci.yml/badge.svg)](https://github.com/sundhar-04/DevOps-intern-final-assesment/actions/workflows/ci.yml)
